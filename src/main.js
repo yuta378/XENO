@@ -272,6 +272,10 @@ function joinRoom() {
     }
 
     const data = snap.data();
+    if (data.hostUid === app.uid) {
+      throw new Error("ROOM_SELF_JOIN");
+    }
+
     if (data.status !== "waiting" || data.guestUid) {
       throw new Error("ROOM_UNAVAILABLE");
     }
@@ -293,6 +297,8 @@ function joinRoom() {
     .catch((err) => {
       if (err?.message === "ROOM_NOT_FOUND") {
         setAuthMessage(`ルーム ${roomId} は存在しません。`, true);
+      } else if (err?.message === "ROOM_SELF_JOIN") {
+        setAuthMessage("同じブラウザの同一プロファイルでは同一ユーザー扱いになるため参加できません。別端末またはシークレット/別ブラウザで参加してください。", true);
       } else if (err?.message === "ROOM_UNAVAILABLE") {
         setAuthMessage(`ルーム ${roomId} は参加できません。`, true);
       } else {
@@ -327,8 +333,7 @@ function attachRoomListener(roomId) {
       if (room.hostUid === app.uid) {
         app.role = "host";
         app.localPlayerIndex = 0;
-      }
-      if (room.guestUid === app.uid) {
+      } else if (room.guestUid === app.uid) {
         app.role = "guest";
         app.localPlayerIndex = 1;
       }
