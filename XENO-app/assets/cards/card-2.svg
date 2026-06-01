@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 340" role="img" aria-label="兵士">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fee2e2"/>
+      <stop offset="100%" stop-color="#fecaca"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="340" rx="20" fill="url(#g2)"/>
+  <rect x="12" y="12" width="216" height="316" rx="14" fill="none" stroke="#7f1d1d" stroke-width="3"/>
+  <text x="24" y="44" font-size="36" font-family="serif" fill="#7f1d1d">2</text>
+  <path d="M70 196 L170 96" stroke="#7f1d1d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M62 204 L78 188 L182 84" stroke="#fef2f2" stroke-width="4"/>
+  <circle cx="80" cy="210" r="20" fill="#7f1d1d"/>
+  <text x="120" y="286" text-anchor="middle" font-size="26" font-family="serif" fill="#7f1d1d">兵士</text>
+</svg>

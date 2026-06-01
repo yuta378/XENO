@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 340" role="img" aria-label="少年">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="340" rx="20" fill="url(#g1)"/>
+  <rect x="12" y="12" width="216" height="316" rx="14" fill="none" stroke="#7c2d12" stroke-width="3"/>
+  <text x="24" y="44" font-size="36" font-family="serif" fill="#7c2d12">1</text>
+  <circle cx="120" cy="138" r="46" fill="#f8fafc" stroke="#7c2d12" stroke-width="3"/>
+  <path d="M88 156 L120 108 L152 156" fill="none" stroke="#7c2d12" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="120" cy="182" r="16" fill="#7c2d12"/>
+  <text x="120" y="286" text-anchor="middle" font-size="26" font-family="serif" fill="#7c2d12">少年</text>
+</svg>

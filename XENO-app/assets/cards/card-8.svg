@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 340" role="img" aria-label="精霊">
+  <defs>
+    <linearGradient id="g8" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#bfdbfe"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="340" rx="20" fill="url(#g8)"/>
+  <rect x="12" y="12" width="216" height="316" rx="14" fill="none" stroke="#1e3a8a" stroke-width="3"/>
+  <text x="24" y="44" font-size="36" font-family="serif" fill="#1e3a8a">8</text>
+  <circle cx="96" cy="162" r="30" fill="#eff6ff" stroke="#1e3a8a" stroke-width="4"/>
+  <circle cx="146" cy="162" r="30" fill="#eff6ff" stroke="#1e3a8a" stroke-width="4"/>
+  <path d="M82 212 Q120 236 160 212" fill="none" stroke="#1e3a8a" stroke-width="6" stroke-linecap="round"/>
+  <text x="120" y="286" text-anchor="middle" font-size="26" font-family="serif" fill="#1e3a8a">精霊</text>
+</svg>

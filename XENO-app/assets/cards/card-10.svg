@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 340" role="img" aria-label="英雄">
+  <defs>
+    <linearGradient id="g10" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fee2e2"/>
+      <stop offset="100%" stop-color="#fca5a5"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="340" rx="20" fill="url(#g10)"/>
+  <rect x="12" y="12" width="216" height="316" rx="14" fill="none" stroke="#7f1d1d" stroke-width="3"/>
+  <text x="18" y="44" font-size="32" font-family="serif" fill="#7f1d1d">10</text>
+  <path d="M120 92 L136 132 L178 132 L144 156 L156 198 L120 172 L84 198 L96 156 L62 132 L104 132 Z" fill="#fef2f2" stroke="#7f1d1d" stroke-width="4"/>
+  <circle cx="120" cy="214" r="18" fill="#7f1d1d"/>
+  <text x="120" y="286" text-anchor="middle" font-size="26" font-family="serif" fill="#7f1d1d">英雄</text>
+</svg>
